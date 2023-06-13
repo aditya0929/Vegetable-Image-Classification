@@ -1,13 +1,27 @@
-# Lemon Quality Segmentation 
+# Vegetable Image Classification
 
-![image](https://github.com/aditya0929/Lemon-quality-segmentation/assets/127277877/5c45f311-5a2e-4ad8-b49f-4a228448d5d8)
+![Screenshot 2023-06-13 201843](https://github.com/aditya0929/vegetable-image-classification/assets/127277877/42525e1b-8d7a-41c7-8e06-dd2287548b64)
+
 
 **SOCIAL SUMMER OF CODE 2023**
 
-**The models that i have created are based on the approach for making a Deep Learning Model which deals with mutli isntance image classification as in the dataset provided we had three classes of images:-**
-1. bad_quality 
-2. empty_background 
-3. good_quality 
+**The models that i have created are based on the approach for making a Deep Learning Model which deals with mutli isntance image classification as in the dataset selected we had fifteen classes of images:-**
+
+1. `Broccoli`
+2. `Capsicum`
+3. `Bottle_Gourd`
+4. `Radish`
+5. `Tomato`
+6. `Brinjal`
+7. `Pumpkin`
+8. `Carrot`
+9. `Papaya`
+10. `Cabbage`
+11. `Bitter_Gourd`
+12. `Cauliflower`
+13. `Bean`
+14. `Cucumber`
+15. `Potato`
 
 ## Important note:-
 **for all the three models that i have created, the parts excluding the model architecture and its definition are mostly the same for the accuracy result to be based out on the same parameters.**
