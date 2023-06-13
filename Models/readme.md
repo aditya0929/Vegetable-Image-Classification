@@ -29,19 +29,15 @@
 
 # Approach for Multi-Instance Image Classification
 
-**1. importing important libaries**
+**1. Importing important libaries**
 
-**2. loading the datasets and creating image and label list for each category** 
+**2. Loading the datasets and creating image and label list for each category** 
 
-**3. creating and shuffling the dataframe**
+**3. Division of train test ad split of the dataset**
 
-**4. division of train test ad split of the dataset**
+**4. Data preprocessing and Image data generators**
 
-**5. Data preprocessing and Image data generators**
-
-   **a. rescaling and data augmentation**
-   
-   **b. diviion for images in training , testing and validation categories**
+**5. Division for images in training , testing and validation categories**
 
 **6.**
 
