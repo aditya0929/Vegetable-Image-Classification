@@ -68,7 +68,8 @@
     Global average pooling is applied to reduce the spatial dimensions of the output.
     Dropout layers are introduced to mitigate overfitting. 
     
-    Two dense layers with ReLU activation are added, followed by a final dense layer with softmax activation for multi-class classification.
+    Two dense layers with ReLU activation are added, followed by a final dense layer with 
+    softmax activation for multi-class classification.
    
     the model is compiled by specifying the loss function, optimizer, and evaluation metrics.
     
@@ -111,7 +112,7 @@
 ### Learning resources 
   
   
-  1.[Transfer Learning](https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a)
+  1.[Transfer Learning using mobilenet and keras](https://medium.com/towards-data-science/transfer-learning-using-mobilenet-and-keras-c75daf7ff299)
   
   2.[cnn-architectures](https://medium.com/@RaghavPrabhu/cnn-architectures-lenet-alexnet-vgg-googlenet-and-resnet-7c81c017b848)
   
@@ -119,7 +120,8 @@
   
   4.[cnn- deep learning](https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148)
   
-  5.[vgg implementations](https://medium.com/towards-data-science/step-by-step-vgg16-implementation-in-keras-for-beginners-a833c686ae6c)
+  5.[ResNet50V2](https://medium.com/towards-data-science/build-a-custom-resnetv2-with-the-desired-depth-92892ec79d4b)
+  
 
  ### GITHUB LINK - https://github.com/aditya0929
 
