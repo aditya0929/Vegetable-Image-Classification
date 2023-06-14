@@ -18,7 +18,7 @@ is a crucial task in computer vision that involves identifying and classifying d
 
  **Simple_CNN** 
  
-**To begin,** I will leverage the **Simple_CNN** architecture, which is a lightweight convolutional neural network suitable for multi-scale image segmentation tasks. With its simplicity, this model can process the image dataset in their respective classes [link](https://www.kaggle.com/datasets/yusufemir/lemon-quality-dataset).
+**To begin,** I will leverage the **Simple_CNN** architecture, which is a lightweight convolutional neural network suitable for multi-scale image segmentation tasks. With its simplicity, this model can process the image dataset in their respective classes [Daatset link](https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset).
 
 **ResNet50V2** 
 
@@ -33,7 +33,7 @@ By utilizing **transfer learning** with the MobileNet model, we can leverage pre
 ![image](https://github.com/aditya0929/vegetable-image-classification/assets/127277877/c8d094de-1cf0-43f7-bdcc-6ac0b4997c7d)
 ![image](https://github.com/aditya0929/vegetable-image-classification/assets/127277877/cba220ab-2df5-4ca1-a798-44f9adac8f15)
 
-Since the models' high levels of accuracy(96% and above) means that most of their pictures will be almost havin similar predicted labels with little room for mistake, the anticipated labels for the lemons are visualised as follows.
+Since the models' high levels of accuracy(96% and above) means that most of their pictures will be almost havin similar predicted labels with little room for mistake, the anticipated labels for the vegetables are visualised as follows.
 
 **Throughout the project,** 
 
@@ -41,13 +41,13 @@ I will preprocess the dataset by resizing the images and splitting it into train
 
 **After training the models,**
 
-I will evaluate their performance using appropriate metrics. Additionally, I will visualize the segmentation results to gain insights into how well the models can accurately identify and classify different regions within the lemon images.
+I will evaluate their performance using appropriate metrics. Additionally, I will visualize the segmentation results to gain insights into how well the models can accurately identify and classify different regions within the vegetable images.
 
 **Performance checker**
 
 ![image](https://github.com/aditya0929/vegetable-image-classification/assets/127277877/98fca8f7-f1f3-4d00-8597-327dcef12beb)
 
-## after evaluation, `MOBILENET` model looks to be the best fit model in this case of Lemon Quality Segmentation.
+## after evaluation, `MOBILENET` model looks to be the best fit model in this case of Vegetable Image Classification .
 
 ## even though the other models also have a high accuracy and have complete capacity for executing the task and predicting the labels.
 
