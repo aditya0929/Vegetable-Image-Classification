@@ -30,6 +30,9 @@ By utilizing **transfer learning** with the MobileNet model, we can leverage pre
 
 **Visualization**
 
+![image](https://github.com/aditya0929/vegetable-image-classification/assets/127277877/c8d094de-1cf0-43f7-bdcc-6ac0b4997c7d)
+![image](https://github.com/aditya0929/vegetable-image-classification/assets/127277877/cba220ab-2df5-4ca1-a798-44f9adac8f15)
+
 Since the models' high levels of accuracy(96% and above) means that most of their pictures will be almost havin similar predicted labels with little room for mistake, the anticipated labels for the lemons are visualised as follows.
 
 **Throughout the project,** 
@@ -42,6 +45,7 @@ I will evaluate their performance using appropriate metrics. Additionally, I wil
 
 **Performance checker**
 
+![image](https://github.com/aditya0929/vegetable-image-classification/assets/127277877/98fca8f7-f1f3-4d00-8597-327dcef12beb)
 
 ## after evaluation, `MOBILENET` model looks to be the best fit model in this case of Lemon Quality Segmentation.
 
