@@ -41,18 +41,20 @@
 
 **6.**
 
-  **A. ALEXNET**
+  **A. MOBILENET**
      
      
-     Implementing AlexNet architecture using Keras. 
-     It defines a sequential model and adds convolutional, pooling, and dense layers to construct the network.
+     Implementing MobileNet architecture using Keras. 
+     MobileNet is a lightweight convolutional neural network architecture designed for mobile and embedded vision applications.
+     It defines a sequential model and add sequential layers to construct the MobileNet architecture
      
-     The model consists of 8 convolutional layers with ReLU activation, max pooling, and zero padding. 
-     It also includes 3 fully connected    layers with dropout for regularization.
+     The desired input image size is (64x64x3)  MobileNet model is initialized as the base model. 
+     This include_top=False argument ensures that the top classification layer of the MobileNet model is excluded.
      
-     The output layer has softmax activation for multi-class classification.
-     The model is compiled with the ADAM optimizer and categorical cross-entropy loss.
-     Two callbacks, early stopping and reduce learning rate on plateau, are defined. 
+     After the convolutional layers, we flatten the output and add fully connected layers with dropout for regularization. 
+     Finally, the model ends with an output layer using softmax activation for multi-class classification.
+     
+     We compile the model by specifying the loss function, optimizer, and evaluation metrics.
      
      The model is trained using the fit() function with provided training and validation datasets
      
