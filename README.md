@@ -18,7 +18,7 @@ is a crucial task in computer vision that involves identifying and classifying d
 
  **Simple_CNN** 
  
-**To begin,** I will leverage the **Simple_CNN** architecture, which is a lightweight convolutional neural network suitable for multi-scale image segmentation tasks. With its simplicity, this model can process the image dataset in their respective classes [Daatset link](https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset).
+**To begin,** I will leverage the **Simple_CNN** architecture, which is a lightweight convolutional neural network suitable for multi-scale image segmentation tasks. With its simplicity, this model can process the image dataset in their respective classes [Dataset link](https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset).
 
 **ResNet50V2** 
 
