@@ -39,37 +39,42 @@
 
 **5. Division for images in training , testing and validation categories**
 
-**6.**
+**6. Making of the models**
 
   **A. MOBILENET**
      
      
      Implementing MobileNet architecture using Keras. 
      MobileNet is a lightweight convolutional neural network architecture designed for mobile and embedded vision applications.
-     It defines a sequential model and add sequential layers to construct the MobileNet architecture
+     It defines a sequential model and sequential layers are added to construct the MobileNet architecture
      
      The desired input image size is (64x64x3)  MobileNet model is initialized as the base model. 
-     This include_top=False argument ensures that the top classification layer of the MobileNet model is excluded.
+     This include_top=False argument to ensure that the top classification layer of the MobileNet model is excluded.
      
-     After the convolutional layers, we flatten the output and add fully connected layers with dropout for regularization. 
+     After the convolutional layers, output is flattened and fully connected layers with dropout for regularization are added  
+     
      Finally, the model ends with an output layer using softmax activation for multi-class classification.
      
-     We compile the model by specifying the loss function, optimizer, and evaluation metrics.
+     the model is compiled by specifying the loss function, optimizer, and evaluation metrics.
      
      The model is trained using the fit() function with provided training and validation datasets
      
-   **B. VGG16**
+   **B. ResNet50V2**
    
    
-    -The VGG16 model is a deep convolutional neural network that has been pre-trained on the ImageNet dataset. 
-    -Fine-tuning involves taking the pre-trained model and adapting it to a new task or 
-     dataset by training the top layers while keeping the lower layers frozen.
-    -Load the pre-trained VGG16 model
-    -Freeze the layers in the base model
-    -Add custom top layers
-    -Create the fine-tuned model
-    -Compile the model
-    -Train the model
+    The ResNet50V2 model is pre-trained on the ImageNet dataset and is used as a feature extractor.
+    A sequential model is created. The base ResNet50V2 model is added as the first layer. 
+    
+    Global average pooling is applied to reduce the spatial dimensions of the output.
+    Dropout layers are introduced to mitigate overfitting. 
+    
+    Two dense layers with ReLU activation are added, followed by a final dense layer with softmax activation for multi-class classification.
+   
+    the model is compiled by specifying the loss function, optimizer, and evaluation metrics.
+    
+    the model is trained usinf the fit() function to the training data (train_images)
+    and validate it on the validation data (val_images) 
+    using the provided training parameters after defining earlystopping and reduction in learning rate using reduce_lr
    
    **C. Simple CNN**
    
@@ -93,13 +98,13 @@
     validation loss,
     training accuracy,
     validation accuracy,
-    mean squared error in terms of ALEXnet and SimpleCNN 
+   
     
-**8. Model prediction and evaluation**
+**8.  Model prediction and evaluation**
 
-**9. Accuracy Evaluation and Confusion Matrix**
+**9.  Finally, Training and Validation Metrics Visualization**
 
-**10. Finally, Training and Validation Metrics Visualization**
+**10. Accuracy Evaluation and Confusion Matrix**
 
 **11. Additionally , the model architecture can also be visualized .**
 
